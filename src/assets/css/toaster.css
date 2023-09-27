@@ -1,0 +1,32 @@
+div.toaster-main-div {
+    position: fixed;
+    right: 10px;
+    top: 50px;
+    margin-bottom: 10px;
+    z-index: 10000;
+}
+
+div.toaster-class {
+    margin-bottom: 10px;
+    min-width: 250px !important;
+    max-width: 300px !important;
+    width: "30%";
+}
+
+.snackbar-error {
+    background: rgba(240, 97, 80, 0.8) !important;
+}
+
+.snackbar-success {
+    background: #5E8E22 !important;
+}
+
+.snackbar-warning {
+    background: rgba(255, 235, 59, 0.8) !important;
+    color: black;
+}
+
+.snackbar-message {
+    display: flex;
+    align-items: center;
+}
